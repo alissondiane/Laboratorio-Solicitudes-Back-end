@@ -30,7 +30,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
  	   a.setDriverClassName("com.mysql.jdbc.Driver");
  	   a.setUrl("jdbc:mysql://localhost:3306/spring-bd");
  	   a.setUsername("root");
- 	   a.setPassword("root");
+ 	   a.setPassword("");
  	   return a;
     }
    @Bean
